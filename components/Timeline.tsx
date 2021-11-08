@@ -1,7 +1,8 @@
 import { FaLaptopCode, FaUniversity } from "react-icons/fa";
 import { Paper, makeStyles, useMediaQuery, useTheme } from '@material-ui/core';
 import { TimelineConnector, TimelineContent, TimelineDot, TimelineItem, Timeline as TimelineMaterialUI, TimelineOppositeContent, TimelineSeparator } from '@material-ui/lab';
-import { blue, red } from '@material-ui/core/colors';
+
+// import { blue, red } from '@material-ui/core/colors';
 
 export interface TimelineComponentProps {
     // align: string
@@ -15,18 +16,18 @@ const useStyles = makeStyles((theme) => ({
     },
     paper: {
         margin: '0px 0px 15px 0px',
-        padding: '6px 16px',
+        padding: '5px',
     },
     papers: {
         margin: '0px 2px 15px 0px',
-        padding: '6px 16px',
+        padding: '5px',
       },
     palette: {
         primary: {
-            main: blue,
+            main: '#5fef7c',
         },
         secondary: {
-            main: red,
+            main: '#de5e78',
         },
     },
     primaryTail: {
@@ -36,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
             transition: 'all .2s ease-in',
         },  
         '&:hover p': {
-            fontSize: '1.07em',
+            fontSize: '1em',
             fontWeigt: '500',
             transition: 'all .2s ease-in',
         },    
@@ -46,12 +47,12 @@ const useStyles = makeStyles((theme) => ({
             transition: 'all .2s ease-in',
         },
         '&:hover .timeConector': {
-            borderColor: theme.palette.primary.main,
-            color: theme.palette.primary.main,
+            borderColor: '#5fef7c',
+            color: '#5fef7c',
             transition: 'all .2s ease-in',
          },
         '&:hover .timeBg': {
-            backgroundColor: theme.palette.primary.main,
+            backgroundColor: '#5fef7c',
             transition: 'all .2s ease-in',
         },      
     },
@@ -62,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
             transition: 'all .2s ease-in',
         },  
         '&:hover p': {
-            fontSize: '1.07em',
+            fontSize: '1em',
             fontWeigt: '500',
             transition: 'all .2s ease-in',
         },    
@@ -78,12 +79,12 @@ const useStyles = makeStyles((theme) => ({
             transition: 'all .2s ease-in',
         },
         '&:hover .timeConector': {
-            borderColor: theme.palette.secondary.main,
-            color: theme.palette.secondary.main,
+            borderColor: '#de5e78',
+            color: '#de5e78',
             transition: 'all .2s ease-in',
          },
         '&:hover .timeBg': {
-            backgroundColor: theme.palette.secondary.main,
+            backgroundColor: '#de5e78',
             transition: 'all .2s ease-in',
         },    
     },
@@ -96,12 +97,13 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
 
     return (
         <>
-            <h2 className='titleMargin mb-4 d-flex justify-content-center'>History</h2>
-            <div className={matches ? `mx-auto ${classes.widthContainer}` : `justify-content-left ${classes.widthContainer}`}>
+            <h2 id='History' className='titleMargin mb-3 d-flex justify-content-center sectionPadding'>History</h2>
+            <h4 className='mb-4 text-center'>Studies and IT experience</h4>
+            <div className={matches ? `mx-auto ${classes.widthContainer}` : `d-flex justify-content-center ${classes.widthContainer}`}>
                 <TimelineMaterialUI align={matches ? 'alternate' : 'left'}>
                     <TimelineItem className={classes.primaryTail}>
                         <TimelineOppositeContent>
-                            <h5 className='pt-lg-2'>2015</h5>
+                            <h5 className='pt-lg-2'>May - 2015</h5>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot className='timeConector' variant="outlined">
@@ -118,7 +120,7 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                     </TimelineItem>
                     <TimelineItem className={classes.primaryTail}>
                         <TimelineOppositeContent>
-                            <h5 className='pt-lg-2'>2017</h5>
+                            <h5 className='pt-lg-2'>Sep - 2017</h5>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot className='timeConector' variant="outlined">
@@ -135,7 +137,7 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                     </TimelineItem>
                     <TimelineItem className={classes.primaryTail}>
                         <TimelineOppositeContent>
-                            <h5 className='pt-lg-2'>2018</h5>
+                            <h5 className='pt-lg-2'>Nov - 2018</h5>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot className='timeConector' variant="outlined">
@@ -152,7 +154,7 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                     </TimelineItem>
                     <TimelineItem className={classes.primaryTail}>
                         <TimelineOppositeContent>
-                            <h5 className='pt-lg-2'>2019</h5>
+                            <h5 className='pt-lg-2'>Dec - 2019</h5>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot className='timeConector' variant="outlined">
@@ -180,13 +182,13 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                         <TimelineContent>
                             <Paper elevation={24} className={`bgCard white ${classes.paper}`}>
                                 <h5>Freelance Web developer</h5>
-                                <p>Working on a range of freelance web projects using HTML5, CSS3, SASS, Bootstrap, EmailJS, JavaScript, TypeScript, React.js or Next.js according to the needs of each client.</p>
+                                <p>Working on a range of freelance web projects using HTML5, CSS3, SASS, Bootstrap, EmailJS, JavaScript, TypeScript, React.js, Redux or Next.js according to the needs of each client.</p>
                             </Paper>
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem className={classes.primaryTail}>
                         <TimelineOppositeContent>
-                            <h5 className='pt-lg-2'>2020</h5>
+                            <h5 className='pt-lg-2'>May - 2020</h5>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot className='timeConector' variant="outlined">
@@ -203,7 +205,7 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                     </TimelineItem>
                     <TimelineItem className={classes.primaryTail}>
                         <TimelineOppositeContent>
-                            <h5 className='pt-lg-2'>2020</h5>
+                            <h5 className='pt-lg-2'>Aug - 2020</h5>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot className='timeConector' variant="outlined">
@@ -220,7 +222,7 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                     </TimelineItem>
                     <TimelineItem className={classes.primaryTail}>
                         <TimelineOppositeContent>
-                            <h5 className='pt-lg-2'>2020</h5>
+                            <h5 className='pt-lg-2'>Oct- 2020</h5>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot className='timeConector' variant="outlined">
@@ -255,7 +257,7 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                     </TimelineItem>
                     <TimelineItem className={classes.primaryTail}>
                         <TimelineOppositeContent>
-                            <h5 className='pt-lg-2'>2021</h5>
+                            <h5 className='pt-lg-2'>Mar - 2021</h5>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot className='timeConector' variant="outlined">
@@ -266,6 +268,23 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                         <TimelineContent>
                             <Paper elevation={24} className={`bgCard white ${classes.papers}`}>
                                 <h5>UX UI Design Course</h5>
+                                <p>CoderHouse</p>
+                            </Paper>
+                        </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem className={classes.primaryTail}>
+                        <TimelineOppositeContent>
+                            <h5 className='pt-lg-2'>Oct - 2021</h5>
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot className='timeConector' variant="outlined">
+                                <FaUniversity size='1.5em' />
+                            </TimelineDot>
+                            <TimelineConnector className='timeBg' />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <Paper elevation={24} className={`bgCard white ${classes.papers}`}>
+                                <h5>React Native with Expo Course</h5>
                                 <p>CoderHouse</p>
                             </Paper>
                         </TimelineContent>

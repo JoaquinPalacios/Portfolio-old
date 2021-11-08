@@ -1,0 +1,73 @@
+.titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+  margin-top: 2em;
+}
+.bg {
+  background-image: repeating-linear-gradient(90deg, white, #1a1a1a 4px, #1a1a1a 33.3%);
+  border-bottom: 2px ridge #181818;
+  border-top: 2px ridge #181818;
+  margin-bottom: 4em;
+  display: inline-block;
+  min-width: 100%;
+}
+.skillContainer .skill {
+  color: #000;
+  margin: 8px 0;
+  padding: 3px 0 3px 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  z-index:0;
+}
+
+.skillContainer .skill::before {
+  content: "";
+  position: absolute;
+  background-color: #11ece5;
+  border-radius: 0 8px 8px 0;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 5px;
+  animation: animateLeft 1.5s ease-in-out;
+}
+
+@keyframes animateLeft {
+  from {
+    transform: translateX(-100%);
+  }
+}
+
+.skillContainer .skill.skillLevel35::before {
+  width: 35%
+}
+.skillContainer .skill.skillLevel50::before {
+  width: 50%
+}
+.skillContainer .skill.skillLevel60::before {
+  width: 60%
+}
+.skillContainer .skill.skillLevel65::before {
+  width: 65%
+}
+.skillContainer .skill.skillLevel70::before {
+  width: 70%
+}
+.skillContainer .skill.skillLevel75::before {
+  width: 75%
+}
+.skillContainer .skill.skillLevel80::before {
+  width: 80%
+}
+.skillContainer .skill.skillLevel90::before {
+  width: 90%
+}
+.skillContainer .skill.skillLevel95::before {
+  width: 95%
+}
+.skillContainer .skill.skillLevel100::before {
+  width: 100%
+}

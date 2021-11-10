@@ -1,5 +1,5 @@
-import { FaAdobe, FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaReact, FaSass, FaWordpress } from 'react-icons/fa';
-import { SiExpo, SiFirebase, SiMaterialUi, SiNextDotJs, SiPhp, SiRedux, SiTypescript } from "react-icons/si";
+import { FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaReact, FaSass, FaWordpress } from 'react-icons/fa';
+import { SiAdobe, SiExpo, SiFirebase, SiNextDotJs, SiPhp, SiRedux, SiTypescript } from "react-icons/si";
 
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
@@ -36,7 +36,7 @@ export default function Home() {
                   <FaCss3Alt size='2em' className={styles.iconsCss} />
                   <FaWordpress size='2em' className={styles.iconsWp} />
                   <FaBootstrap size='2em' className={styles.iconsBoots} />
-                  <SiMaterialUi size='2em' className={styles.iconsMui} />
+                  {/* <SiMaterialUi size='2em' className={styles.iconsMui} /> */}
                   <FaSass size='2em' className={styles.iconsSass} />
                   <SiPhp size='2em' className={styles.iconPhp} />
                   <DiJavascript1 size='2em' className={styles.iconsJs} />
@@ -49,7 +49,7 @@ export default function Home() {
                   <SiExpo size='2em' className={styles.iconExpo} />
                   <SiFirebase size='2em' className={styles.iconsFb} />
                   <FaGithub size='2em' className={styles.iconsNext} />
-                  <FaAdobe size='2em' className={styles.iconsAdobe} />
+                  <SiAdobe size='2em' className={styles.iconsAdobe} />
                 </Col>                
               </Row>
           </Col> 

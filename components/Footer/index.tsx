@@ -1,6 +1,7 @@
-import { Col, Container, Row } from "react-bootstrap";
-
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 import Image from 'next/image'
+import Row from 'react-bootstrap/Row';
 
 export interface FooterProps {
     
@@ -20,7 +21,7 @@ const Footer: React.FC<FooterProps> = () => {
                         <Image src='/images/logo.png' width='158px' height='158px' alt='Logo' />
                     </Col>
                 </Row>
-                <Row><div className='text-center grey fw-light'>Copyright {new Date().getFullYear()}</div></Row>
+                <Row><small className='text-center grey fw-light'>Copyright {new Date().getFullYear()}</small></Row>
             </Container>            
         </footer>
     );

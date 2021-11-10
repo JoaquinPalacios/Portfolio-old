@@ -2,7 +2,7 @@
 
 html,
 body {
-  background-color: #181818 !important;
+  background-color: #040609 !important;
   color: #fff !important;
   padding: 0;
   margin: 0;
@@ -49,7 +49,7 @@ p {
   line-height: 1.2em;
 }
 .imgCard {
-  border: 2px solid whitesmoke;
+  border: 2px solid #c6d3e7;
   border-radius: 5px;
   padding: 4px;
 }

@@ -2,11 +2,8 @@ import { FaLaptopCode, FaUniversity } from "react-icons/fa";
 import { Paper, makeStyles, useMediaQuery, useTheme } from '@material-ui/core';
 import { TimelineConnector, TimelineContent, TimelineDot, TimelineItem, Timeline as TimelineMaterialUI, TimelineOppositeContent, TimelineSeparator } from '@material-ui/lab';
 
-// import { blue, red } from '@material-ui/core/colors';
-
 export interface TimelineComponentProps {
-    // align: string
-    // theme: any
+    
 }
 
 const useStyles = makeStyles((theme) => ({

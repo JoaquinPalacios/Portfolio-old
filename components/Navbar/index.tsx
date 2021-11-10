@@ -1,4 +1,4 @@
-import AppLink from './AppLinks';
+import AppLink from '../AppLinks';
 import Scrollspy from 'react-scrollspy';
 
 export interface NavbarProps {

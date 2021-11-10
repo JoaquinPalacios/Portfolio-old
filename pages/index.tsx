@@ -1,12 +1,15 @@
-import { Button, Col, Container, Row } from 'react-bootstrap';
 import { FaAdobe, FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaReact, FaSass, FaWordpress } from 'react-icons/fa';
 import { SiExpo, SiFirebase, SiMaterialUi, SiNextDotJs, SiPhp, SiRedux, SiTypescript } from "react-icons/si";
 
-import ContactUs from '../components/contact';
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+import ContactUs from '../components/Contact';
+import Container from 'react-bootstrap/Container';
 import { DiJavascript1 } from "react-icons/di";
 import Head from 'next/head'
 import Image from 'next/image'
 import Portfoliocomponent from '../components/Portfolio';
+import Row from 'react-bootstrap/Row';
 import SkillsComponent from '../components/Skills';
 import TimelineComponent from '../components/Timeline';
 import styles from '../styles/Home.module.css'

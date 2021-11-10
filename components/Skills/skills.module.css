@@ -6,9 +6,9 @@
   margin-top: 2em;
 }
 .bg {
-  background-image: repeating-linear-gradient(90deg, white, #1a1a1a 4px, #1a1a1a 33.3%);
-  border-bottom: 2px ridge #181818;
-  border-top: 2px ridge #181818;
+  background-image: repeating-linear-gradient(90deg, #c6d3e7, #0e0f11 4px, #0e0f11 33.3%);
+  border-bottom: 2px ridge #090b0d;
+  border-top: 2px ridge #090b0d;
   margin-bottom: 4em;
   display: inline-block;
   min-width: 100%;

@@ -1,9 +1,13 @@
-import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import React, { useState } from 'react';
 
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
 import emailjs from 'emailjs-com';
 
-const Result = () => <h3 className='text-center my-4'>Thanks for your message. I will be in touch soon.</h3>;
+const Result = () => <h3 className='text-center my-4'>Thank you for your message. I will be in touch soon.</h3>;
 
 const ContactUs = () => {
     const [result, setResult] = useState<boolean>(false);
@@ -23,7 +27,7 @@ const ContactUs = () => {
     };
     setTimeout(() => {
         setResult(false);
-    }, 5000);
+    }, 8000);
 
   return (
             <Container id='Contact' className='mt-5 pt-5 sectionPadding'>
@@ -48,3 +52,18 @@ const ContactUs = () => {
   );
 };
 export default ContactUs;
+
+// export async function getStaticProps() {
+//     return {
+//         props: {
+//             service: process.env.NEXT_PUBLIC_SERVICE_ID,
+//             template: process.env.NEXT_PUBLIC_TEMPLATE_ID,
+//             user: process.env.NEXT_PUBLIC_USER_ID,
+//         }
+//     }
+// };
+// export const service: string | undefined = process.env.SERVICE_ID;
+// export const template: string | undefined = process.env.TEMPLATE_ID;
+// export const user: string | undefined = process.env.USER_ID;
+
+// props: {service: string; template: string; user: string}

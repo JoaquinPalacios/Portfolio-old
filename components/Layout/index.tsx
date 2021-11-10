@@ -1,6 +1,6 @@
-import Footer from "./Footer"
+import Footer from "../Footer"
 import Head from "next/head"
-import Navbar from "./Navbar"
+import Navbar from "../Navbar"
 
 export interface LayoutProps {
     
@@ -8,17 +8,23 @@ export interface LayoutProps {
  
 const Layout: React.FC<LayoutProps> = ({children}) => {
     return (
-        <div>
+        <>
             <Head>
               <meta name='viewport' content='initial-scale=1.0, width=device-width' />
               <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />
+              <meta property="og:title" content='Joa Palacios Portfolio' />
+              <meta property="og:description" content='Website porfolio of Joa Palacios' />
+              <meta property="og:type" content="website" />
+              <meta property="og:image" content="https://ibb.co/album/XX025r" />
+              <meta property="og:url" content="" />
+              <meta property="og:locale" content="en" />
             </Head>        
             <div>
                 <Navbar />
                 { children }
                 <Footer />
             </div>
-        </div>
+        </>
     );
 }
  

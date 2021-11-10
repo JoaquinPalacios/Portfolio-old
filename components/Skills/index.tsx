@@ -1,9 +1,11 @@
-import { Col, Container, Row } from "react-bootstrap";
 import { FaBootstrap, FaCss3Alt, FaHtml5, FaReact, FaWix, FaWordpress } from 'react-icons/fa';
 import { SiFirebase, SiJavascript, SiMaterialUi, SiNextDotJs, SiPhp, SiRedux, SiTypescript } from "react-icons/si";
 
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 import { DiSqllite } from "react-icons/di";
 import { InView } from "react-intersection-observer";
+import Row from 'react-bootstrap/Row';
 import styles from '../Skills/skills.module.css'
 import { useState } from "react";
 
@@ -104,7 +106,7 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                         {({ ref, inView }) => (
                         <div className={styles.skillContainer}  ref={ref}>
                             {console.log('inview', inView)}
-                            {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel75}`}><SiFirebase size='1.5em' className='me-1' /> Firebase</div>
+                            {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel70}`}><SiFirebase size='1.5em' className='me-1' /> Firebase</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel50}`}><DiSqllite size='1.5em' className='me-1' /> SQLite</div></div>) : ''}                            
                         </div>
                         )}

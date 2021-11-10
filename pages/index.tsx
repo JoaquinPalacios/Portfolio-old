@@ -19,7 +19,7 @@ export default function Home() {
     <div id='Home' className='pt-1'>
       <Head>
         <title>Joa Palacios | Portfolio</title>
-        <meta name="description" content='Website Portfolio of Joaquin Palacios' />
+        <meta name="description" content='Website Portfolio of Joa Palacios' />
       </Head>
       <Container fluid>
         <Row className='my-5 pt-4'>

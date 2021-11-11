@@ -16,7 +16,7 @@ const Layout: React.FC<LayoutProps> = ({children}) => {
               <meta property="og:description" content='Personal website porfolio of Joa Palacios' />
               <meta property="og:type" content="website" />
               <meta property="og:image" content="/images/webPortfolio.png" />
-              <meta property="og:url" content="" />
+              <meta property="og:url" content="https://portfolio-joaquinpalacios.vercel.app/" />
               <meta property="og:locale" content="en" />
             </Head>        
             <div>

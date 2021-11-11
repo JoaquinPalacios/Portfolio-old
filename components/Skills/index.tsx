@@ -1,5 +1,5 @@
 import { FaBootstrap, FaCss3Alt, FaHtml5, FaReact, FaWix, FaWordpress } from 'react-icons/fa';
-import { SiFirebase, SiJavascript, SiMaterialUi, SiNextDotJs, SiPhp, SiRedux, SiTypescript } from "react-icons/si";
+import { SiFirebase, SiJavascript, SiMaterialui, SiNextdotjs, SiPhp, SiRedux, SiTypescript } from "react-icons/si";
 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -41,7 +41,7 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                             <div className={`${styles.skill} ${styles.skillLevel70}`}><FaReact size='1.5em' className='me-1' /> React.Js</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><FaReact size='1.5em' className='me-1' /> React Native</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel60}`}><SiRedux size='1.5em' className='me-1' /> Redux</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel70}`}><SiNextDotJs size='1.5em' className='me-1' /> Next.Js</div></div>) : ''}                            
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel70}`}><SiNextdotjs size='1.5em' className='me-1' /> Next.Js</div></div>) : ''}                            
                         </div>
                         )}
                         </InView>
@@ -63,7 +63,7 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                         <div className={styles.skillContainer}  ref={ref}>
                             {console.log('inview', inView)}
                             {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel90}`}><FaBootstrap size='1.5em' className='me-1' /> Bootstrap</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><SiMaterialUi size='1.5em' className='me-1' /> MAterial UI</div></div>) : ''}                            
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><SiMaterialui size='1.5em' className='me-1' /> MAterial UI</div></div>) : ''}                            
                         </div>
                         )}
                         </InView>

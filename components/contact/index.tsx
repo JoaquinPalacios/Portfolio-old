@@ -9,7 +9,13 @@ import emailjs from 'emailjs-com';
 
 const Result = () => <h3 className='text-center my-4'>Thank you for your message. I will be in touch soon.</h3>;
 
-const ContactUs = () => {
+interface ContactUsProps {
+//   service?: string
+//   template?: string
+//   user?: string
+}
+
+const ContactUs: React.FC<ContactUsProps> = () => {
     const [result, setResult] = useState<boolean>(false);
     console.log('result created', result)
   
@@ -53,17 +59,23 @@ const ContactUs = () => {
 };
 export default ContactUs;
 
-// export async function getStaticProps() {
+// export const getStaticProps: GetStaticProps = async () => {
 //     return {
 //         props: {
-//             service: process.env.NEXT_PUBLIC_SERVICE_ID,
-//             template: process.env.NEXT_PUBLIC_TEMPLATE_ID,
-//             user: process.env.NEXT_PUBLIC_USER_ID,
+//             service: process.env.SERVICE_ID?.toString(),
+//             template: process.env.TEMPLATE_ID?.toString(),
+//             user: process.env.USER_ID?.toString(),
 //         }
 //     }
 // };
-// export const service: string | undefined = process.env.SERVICE_ID;
-// export const template: string | undefined = process.env.TEMPLATE_ID;
-// export const user: string | undefined = process.env.USER_ID;
+// export const getStaticProps: GetStaticProps = async () => {
+//     return {
+//         props: {
+//             service: process.env.NEXT_PUBLIC_SERVICE_ID?.toString(),
+//             template: process.env.NEXT_PUBLIC_TEMPLATE_ID?.toString(),
+//             user: process.env.NEXT_PUBLIC_USER_ID?.toString(),
+//         }
+//     }
+// };
 
 // props: {service: string; template: string; user: string}

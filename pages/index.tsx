@@ -30,7 +30,7 @@ export default function Home() {
               <h2 className='text-center'>Front End Developer</h2>
               <h5 className='text-center'>Gold Coast, Australia</h5>
               <p className='mt-5 mt-sm-3 mx-lg-5'>Diligent Front End Developer with 2+ years experience in commercial application development. Eager to keep learning the latest technologies and to build innovative and cutting edge business solutions for clients around the globe.</p>
-              <Row className=' mt-5 mt-md-3 mx-lg-0 d-flex justify-content-between'>
+              <Row className=' mt-5 mt-md-3 pt-lg-5 mx-lg-0 d-flex justify-content-between'>
                 <Col className='d-flex justify-content-between' lg={6}>
                   <FaHtml5 size='2em' className={styles.iconsHtml} />
                   <FaCss3Alt size='2em' className={styles.iconsCss} />

@@ -1,3 +1,5 @@
+import { OverlayTrigger, Tooltip } from "react-bootstrap";
+
 import ArrayPortfolio from "../../data";
 import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
@@ -7,6 +9,12 @@ import Container from 'react-bootstrap/Container';
 import { FaGithub } from "react-icons/fa"
 import Image from 'next/image'
 import Row from 'react-bootstrap/Row';
+
+const renderTooltip = (props: any) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Check it on GitHub
+    </Tooltip>
+  );
 
 export interface PortfoliocomponentProps {
    
@@ -24,11 +32,18 @@ const Portfoliocomponent: React.FC<PortfoliocomponentProps> =() => {
                             <Card.Title>{portfolio.title}</Card.Title>
                             <Card.Body>{portfolio.description}</Card.Body>
                             <div className='d-flex justify-content-evenly align-items-center mb-2 mb-lg-0'>
-                                <Button href={portfolio.URLsite} target='_blank' className='my-2 greenButton'>Visit Website &rang;</Button>
-                                {(portfolio.URLGitHub !== null) ? <a href={portfolio.URLGitHub} target='_blank' rel='noreferrer'><FaGithub size='2em' color='#fff' /></a> : null}
-                                
-                            </div>
-                            
+                                <a href={portfolio.URLsite} type='submit' target='_blank' rel='noreferrer'>
+                                    <Button className='my-2 greenButton'>Visit Website &rang;</Button>
+                                </a>
+                                {(portfolio.URLGitHub !== null) ? (<OverlayTrigger
+                                    placement="bottom"
+                                    delay={{ show: 250, hide: 400 }}
+                                    overlay={renderTooltip}>
+                                        <a href={portfolio.URLGitHub} target='_blank' rel='noreferrer'>
+                                            <FaGithub size='2em' color='#fff' />
+                                        </a>
+                                    </OverlayTrigger>) : null}                                                              
+                            </div>                            
                         </Col>
                         <Col lg={6} className='imgCard' >
                             <Image src={portfolio.pageImage} width='800px' height='380px' alt={portfolio.alt} />   

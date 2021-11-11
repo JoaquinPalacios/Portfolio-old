@@ -9,13 +9,13 @@ import emailjs from 'emailjs-com';
 
 const Result = () => <h3 className='text-center my-4'>Thank you for your message. I will be in touch soon.</h3>;
 
-interface ContactUsProps {
+interface ContactProps {
 //   service?: string
 //   template?: string
 //   user?: string
 }
 
-const Contact: React.FC<ContactUsProps> = () => {
+const Contact: React.FC<ContactProps> = () => {
     const [result, setResult] = useState<boolean>(false);
   
     const sendEmail = (e: any) => {

@@ -1,5 +1,3 @@
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
-
 import ArrayPortfolio from "../../data";
 import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
@@ -8,7 +6,9 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import { FaGithub } from "react-icons/fa"
 import Image from 'next/image'
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Row from 'react-bootstrap/Row';
+import Tooltip from 'react-bootstrap/Tooltip';
 
 const renderTooltip = (props: any) => (
     <Tooltip id="button-tooltip" {...props}>

@@ -15,7 +15,7 @@ interface ContactUsProps {
 //   user?: string
 }
 
-const ContactUs: React.FC<ContactUsProps> = () => {
+const Contact: React.FC<ContactUsProps> = () => {
     const [result, setResult] = useState<boolean>(false);
     console.log('result created', result)
   
@@ -57,7 +57,7 @@ const ContactUs: React.FC<ContactUsProps> = () => {
             </Container>
   );
 };
-export default ContactUs;
+export default Contact;
 
 // export const getStaticProps: GetStaticProps = async () => {
 //     return {

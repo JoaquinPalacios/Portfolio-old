@@ -3,7 +3,7 @@ import { SiAdobe, SiExpo, SiFirebase, SiMaterialui, SiNextdotjs, SiPhp, SiRedux,
 
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
-import ContactUs from '../components/Contact';
+import Contact from '../components/Contact';
 import Container from 'react-bootstrap/Container';
 import { DiJavascript1 } from "react-icons/di";
 import Head from 'next/head'
@@ -65,7 +65,7 @@ export default function Home() {
         <Portfoliocomponent />
         <TimelineComponent />
         <SkillsComponent />
-        <ContactUs />
+        <Contact />
       </Container>         
     </div>
   );

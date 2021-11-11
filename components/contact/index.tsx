@@ -17,7 +17,6 @@ interface ContactUsProps {
 
 const Contact: React.FC<ContactUsProps> = () => {
     const [result, setResult] = useState<boolean>(false);
-    console.log('result created', result)
   
     const sendEmail = (e: any) => {
       e.preventDefault();

@@ -35,7 +35,7 @@ const Contact: React.FC<ContactProps> = () => {
     }, 8000);
 
   return (
-            <Container id='Contact' className='mt-5 pt-5 sectionPadding'>
+            <Container id='Contact' className='mt-5 pt-5 mb-5 mb-sm-0 sectionPadding'>
                 <h2 className='text-center mt-3'>Get in touch!</h2>
                 <Row className='d-flex justify-content-center'>
                     <Col sm={12} lg={8} className='gy-3'> 
@@ -47,7 +47,7 @@ const Contact: React.FC<ContactProps> = () => {
                                 <Form.Control required as="textarea" rows={4}  placeholder="Message" name='message' className='mb-3' />
                             </Form.Group>
                             <div className='d-grid gap-2 d-lg-block'>
-                                <Button type="submit" className='col-12 greenButton' size='lg'>Enviar</Button>
+                                <Button type="submit" className='col-12 greenButton' size='lg'>Submit</Button>
                             </div>
                         </Form>
                     </Col>

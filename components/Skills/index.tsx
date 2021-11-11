@@ -63,7 +63,7 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                         <div className={styles.skillContainer}  ref={ref}>
                             {console.log('inview', inView)}
                             {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel90}`}><FaBootstrap size='1.5em' className='me-1' /> Bootstrap</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><SiMaterialui size='1.5em' className='me-1' /> MAterial UI</div></div>) : ''}                            
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><SiMaterialui size='1.5em' className='me-1' /> Material UI</div></div>) : ''}                            
                         </div>
                         )}
                         </InView>

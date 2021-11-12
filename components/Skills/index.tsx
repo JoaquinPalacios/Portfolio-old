@@ -37,11 +37,11 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel90}`}><FaCss3Alt size='1.5em' className='me-1' /> CSS</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel35}`}><SiPhp size='1.5em' className='me-1' /> PHP</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel75}`}><SiJavascript size='1.5em' className='me-1' /> JavaScript</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><SiTypescript size='1.5em' className='me-1' /> Typescript</div>
-                            <div className={`${styles.skill} ${styles.skillLevel70}`}><FaReact size='1.5em' className='me-1' /> React.Js</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><FaReact size='1.5em' className='me-1' /> React Native</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel60}`}><SiRedux size='1.5em' className='me-1' /> Redux</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel70}`}><SiNextdotjs size='1.5em' className='me-1' /> Next.Js</div></div>) : ''}                            
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel70}`}><SiTypescript size='1.5em' className='me-1' /> Typescript</div>
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel75}`}><FaReact size='1.5em' className='me-1' /> React.Js</div>
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel70}`}><FaReact size='1.5em' className='me-1' /> React Native</div>
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><SiRedux size='1.5em' className='me-1' /> Redux</div>
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel75}`}><SiNextdotjs size='1.5em' className='me-1' /> Next.Js</div></div>) : ''}                            
                         </div>
                         )}
                         </InView>
@@ -62,9 +62,9 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                         {({ ref, inView }) => (
                         <div className={styles.skillContainer}  ref={ref}>
                             {console.log('inview', inView)}
-                            {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel85}`}><SiStyledcomponents size='1.5em' className='me-1' /> Styled components</div>
+                            {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel90}`}><SiStyledcomponents size='1.5em' className='me-1' /> Styled components</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel90}`}><FaBootstrap size='1.5em' className='me-1' /> Bootstrap</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><SiMaterialui size='1.5em' className='me-1' /> Material UI</div></div>) : ''}                            
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel70}`}><SiMaterialui size='1.5em' className='me-1' /> Material UI</div></div>) : ''}                            
                         </div>
                         )}
                         </InView>
@@ -86,7 +86,7 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                         <div className={styles.skillContainer}  ref={ref}>
                             {console.log('inview', inView)}
                             {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel80}`}><FaWordpress size='1.5em' className='me-1' /> WordPress</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel60}`}><FaWix size='1.5em' className='me-1' /> WIX</div></div>) : ''}                            
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><FaWix size='1.5em' className='me-1' /> WIX</div></div>) : ''}                            
                         </div>
                         )}
                         </InView>

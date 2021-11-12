@@ -3,8 +3,8 @@
 # Technologies
 Project is created with:
 > Bootstrap 5.
-> Material UI
-> EmailJS
+> Material UI.
+> EmailJS.
 > Typescript.
 > Next.JS
 # Website

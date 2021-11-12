@@ -1,5 +1,5 @@
 import { FaBootstrap, FaCss3Alt, FaHtml5, FaReact, FaWix, FaWordpress } from 'react-icons/fa';
-import { SiFirebase, SiJavascript, SiMaterialui, SiNextdotjs, SiPhp, SiRedux, SiTypescript } from "react-icons/si";
+import { SiFirebase, SiJavascript, SiMaterialui, SiNextdotjs, SiPhp, SiRedux, SiStyledcomponents, SiTypescript } from "react-icons/si";
 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -62,7 +62,8 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                         {({ ref, inView }) => (
                         <div className={styles.skillContainer}  ref={ref}>
                             {console.log('inview', inView)}
-                            {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel90}`}><FaBootstrap size='1.5em' className='me-1' /> Bootstrap</div>
+                            {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel85}`}><SiStyledcomponents size='1.5em' className='me-1' /> Styled components</div>
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel90}`}><FaBootstrap size='1.5em' className='me-1' /> Bootstrap</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><SiMaterialui size='1.5em' className='me-1' /> Material UI</div></div>) : ''}                            
                         </div>
                         )}

@@ -12,7 +12,7 @@ const ArrayPortfolio: { id: string, title: string, description: string, URLsite:
     {
         id: '2',
         title: 'Aimara Website',
-        description: 'Web Design and Development of Aimara Wines Website. The Aimara Website is a personal React.Js project.',
+        description: 'Web Design and Development of Aimara Wines website. The Aimara Website is a personal React.Js project.',
         URLsite: 'https://aimara.netlify.app/',
         URLGitHub: 'https://github.com/JoaquinPalacios/Aimara',
         pageImage: '/images/Aimara.png',

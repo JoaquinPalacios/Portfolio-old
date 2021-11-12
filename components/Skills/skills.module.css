@@ -62,6 +62,9 @@
 .skillContainer .skill.skillLevel80::before {
   width: 80%
 }
+.skillContainer .skill.skillLevel85::before {
+  width: 85%
+}
 .skillContainer .skill.skillLevel90::before {
   width: 90%
 }

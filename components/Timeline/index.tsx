@@ -29,60 +29,34 @@ const useStyles = makeStyles((theme) => ({
     },
     primaryTail: {
         transition: 'all .2s ease-out',
-        '&:hover': {
-            fontSize: '1.125em',
-            transition: 'all .2s ease-in',
-        },  
-        '&:hover p': {
-            fontSize: '1em',
-            fontWeigt: '500',
-            transition: 'all .2s ease-in',
-        },    
-        '&:hover h5': {
-            fontSize: '1.15em',
-            fontWeigt: '700',
-            transition: 'all .2s ease-in',
+        '&:hover .bgCard': {
+            boxShadow: '0 0 3px 1px #5fef7c',
+            transition: 'all .25s ease-in',
         },
         '&:hover .timeConector': {
             borderColor: '#5fef7c',
             color: '#5fef7c',
-            transition: 'all .2s ease-in',
+            transition: 'all .25s ease-in',
          },
         '&:hover .timeBg': {
             backgroundColor: '#5fef7c',
-            transition: 'all .2s ease-in',
+            transition: 'all .25s ease-in',
         },      
     },
     secondaryTail: {
         transition: 'all .2s ease-out',
-        '&:hover': {
-            fontSize: '1.125em',
-            transition: 'all .2s ease-in',
-        },  
-        '&:hover p': {
-            fontSize: '1em',
-            fontWeigt: '500',
-            transition: 'all .2s ease-in',
-        },    
-        '&:hover h5': {
-            fontSize: '1.15em',
-            fontWeigt: '700',
-            letterSpacing: '1px',
-            transition: 'all .2s ease-in',
-        },
-        '&:hover h6': {
-            fontSize: '1.12em',
-            fontWeigt: '500',
-            transition: 'all .2s ease-in',
+        '&:hover .bgCard': {
+            boxShadow: '0 0 3px 1px #de5e78',
+            transition: 'all .25s ease-in',
         },
         '&:hover .timeConector': {
             borderColor: '#de5e78',
             color: '#de5e78',
-            transition: 'all .2s ease-in',
+            transition: 'all .25s ease-in',
          },
         '&:hover .timeBg': {
             backgroundColor: '#de5e78',
-            transition: 'all .2s ease-in',
+            transition: 'all .25s ease-in',
         },    
     },
   }));

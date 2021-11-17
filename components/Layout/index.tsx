@@ -11,7 +11,7 @@ const Layout: React.FC<LayoutProps> = ({children}) => {
         <>
             <Head>
               <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-              <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />
+              <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png" />
               <meta property="og:title" content='Joa Palacios Portfolio' />
               <meta property="og:description" content='Personal website porfolio of Joa Palacios' />
               <meta property="og:type" content="website" />

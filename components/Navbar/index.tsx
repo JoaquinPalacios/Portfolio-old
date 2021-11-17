@@ -1,7 +1,7 @@
-import { Nav, Navbar as NavbarBootstrap } from 'react-bootstrap';
 import React, { useState } from 'react';
 
 import AppLink from '../AppLinks';
+import { Navbar as NavbarBootstrap } from 'react-bootstrap';
 import Scrollspy from 'react-scrollspy';
 
 export interface NavbarProps {
@@ -29,13 +29,3 @@ const Navbar: React.FC<NavbarProps> = () => {
 }
  
 export default Navbar;
-
-// export const ScrollspyComponent = () => (
-//         <Scrollspy  items={ ['Home', 'Porfolio', 'History', 'Skills', 'Contact'] } currentClassName="is-current" className='d-flex justify-content-around py-3 border-dark border-bottom shadow-lg fixed-top bgCard' id="collasible-nav-dropdown">
-//             <AppLink href='#Home' label='Home' />
-//             <AppLink href='#Porfolio' label='Porfolio' />
-//             <AppLink href='#History' label='History' />
-//             <AppLink href='#Skills' label='Skills' />
-//             <AppLink href='#Contact' label='Contact' />
-//         </Scrollspy>
-// );

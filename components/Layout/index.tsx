@@ -9,16 +9,19 @@ export interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({children}) => {
     return (
         <>
-            {/* <Head>
+            <Head>
               <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-              <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png" />
               <meta property="og:title" content='Joa Palacios Portfolio' />
               <meta property="og:description" content='Personal website porfolio of Joa Palacios' />
               <meta property="og:type" content="website" />
               <meta property="og:image" content="/images/webPortfolio.png" />
+              <meta property="og:image:secure_url" content="/images/webPortfolio.png" />
+              <meta property="og:image:type" content="image/png" />
+              <meta property="og:image:width" content="1200" /> 
+              <meta property="og:image:height" content="627" />
               <meta property="og:url" content="https://portfolio-joaquinpalacios.vercel.app/" />
               <meta property="og:locale" content="en" />
-            </Head>         */}
+            </Head>        
             <div>
                 <Navbar />
                 { children }

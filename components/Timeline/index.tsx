@@ -210,7 +210,7 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                     </TimelineItem>
                     <TimelineItem className={classes.secondaryTail}>
                         <TimelineOppositeContent>
-                            <h5 className='pt-lg-2'>Apr - 2021 / Jun -2021</h5>
+                            <h5 className='pt-lg-2'>Mar - 2021 / Jun -2021</h5>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot variant="outlined" className='timeConector'>

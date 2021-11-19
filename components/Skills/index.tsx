@@ -48,7 +48,7 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                     </div>      
                 </Col>                
             </Row>             
-            <h4 className='text-center'>CSS frameworks</h4>  
+            <h4 className='text-center'>CSS-in-JS library & CSS frameworks</h4>  
             <Row className='d-flex justify-content-center'>
                 <Col md={8}>
                     <div className={styles.titles}>
@@ -71,7 +71,7 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                     </div>      
                 </Col>
             </Row>
-            <h4 className='text-center'>Customer Management System</h4>  
+            <h4 className='text-center'>Customer Management Systems</h4>
             <Row className='d-flex justify-content-center'>
                 <Col md={8}>
                     <div className={styles.titles}>

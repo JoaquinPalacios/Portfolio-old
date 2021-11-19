@@ -9,7 +9,7 @@ export interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({children}) => {
     return (
         <>
-            <Head>
+            {/* <Head>
               <meta name='viewport' content='initial-scale=1.0, width=device-width' />
               <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png" />
               <meta property="og:title" content='Joa Palacios Portfolio' />
@@ -18,7 +18,7 @@ const Layout: React.FC<LayoutProps> = ({children}) => {
               <meta property="og:image" content="/images/webPortfolio.png" />
               <meta property="og:url" content="https://portfolio-joaquinpalacios.vercel.app/" />
               <meta property="og:locale" content="en" />
-            </Head>        
+            </Head>         */}
             <div>
                 <Navbar />
                 { children }

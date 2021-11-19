@@ -20,6 +20,15 @@ export default function Home() {
       <Head>
         <title>Joa Palacios | Portfolio</title>
         <meta name="description" content='Website Portfolio of Joa Palacios' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        {/* <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png" /> */}
+        <meta property="og:title" content='Joa Palacios Portfolio' />
+        <meta property="og:description" content='Personal website porfolio of Joa Palacios' />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/images/webPortfolio.png" />
+        <meta property="og:url" content="https://portfolio-joaquinpalacios.vercel.app/" />
+        <meta property="og:locale" content="en" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container fluid>
         <Row className='my-5 pt-4'>

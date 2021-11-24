@@ -10,11 +10,11 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Row from 'react-bootstrap/Row';
 import Tooltip from 'react-bootstrap/Tooltip';
 
-const renderTooltip = (props: any) => (
-    <Tooltip id="button-tooltip" {...props}>
-      Check it on GitHub
-    </Tooltip>
-  );
+// const renderTooltip = (props: any) => (
+//     <Tooltip id="button-tooltip" {...props}>
+//       Check it on GitHub
+//     </Tooltip>
+//   );
 
 export interface PortfoliocomponentProps {
    

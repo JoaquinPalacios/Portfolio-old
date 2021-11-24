@@ -35,14 +35,17 @@ const Portfoliocomponent: React.FC<PortfoliocomponentProps> =() => {
                                 <a href={portfolio.URLsite} type='submit' target='_blank' rel='noreferrer'>
                                     <Button className='my-2 greenButton'>Visit Website &rang;</Button>
                                 </a>
-                                {(portfolio.URLGitHub !== null) ? (<OverlayTrigger
-                                    placement="bottom"
-                                    delay={{ show: 250, hide: 400 }}
-                                    overlay={renderTooltip}>
+                                {(portfolio.URLGitHub !== null) ? (
+                                // <OverlayTrigger
+                                //     placement="bottom"
+                                //     delay={{ show: 250, hide: 400 }}
+                                //     overlay={renderTooltip}>
                                         <a href={portfolio.URLGitHub} target='_blank' rel='noreferrer'>
                                             <FaGithub size='2em' color='#fff' />
                                         </a>
-                                    </OverlayTrigger>) : null}                                                              
+                                    // {/* </OverlayTrigger> */}
+                                    )
+                                     : null}                                                              
                             </div>                            
                         </Col>
                         <Col lg={6} className='imgCard' >

@@ -12,7 +12,7 @@ import Tooltip from 'react-bootstrap/Tooltip';
 
 const renderTooltip = (props: any) => (
     <Tooltip id="button-tooltip" {...props}>
-      Check it on GitHub
+      Take a look!
     </Tooltip>
   );
 
@@ -26,15 +26,13 @@ const Portfoliocomponent: React.FC<PortfoliocomponentProps> =() => {
             <h2 id='Porfolio' className='titleMargin sectionPadding mb-4 d-flex justify-content-center'>Portfolio</h2>                       
             <h4 className='text-center mb-5'>Here are a few projects I&#39;ve worked on recently. Want to see more? <a href="mailto:joa_palacios@hotmail.com" className='green'>Email me.</a></h4>
             <Container>
-            {ArrayPortfolio.map((portfolio) => (<Card className='bgCard py-2 border border-dark my-3'  key={portfolio.id}>
+            {ArrayPortfolio.map((portfolio) => (<Card className='bgCard py-2 border border-dark my-3' key={portfolio.id}>
                     <Row className='d-flex align-items-center'>
                         <Col lg={3} className='text-center'>
                             <Card.Title>{portfolio.title}</Card.Title>
                             <Card.Body>{portfolio.description}</Card.Body>
                             <div className='d-flex justify-content-evenly align-items-center mb-2 mb-lg-0'>
-                                <a href={portfolio.URLsite} type='submit' target='_blank' rel='noreferrer'>
-                                    <Button className='my-2 greenButton' type='submit'>Visit Website &rang;</Button>
-                                </a>
+                                    <Button href={portfolio.URLsite} className='my-2 greenButton' type='submit' target='_blank'>Visit Website &rang;</Button>
                                 {(portfolio.URLGitHub !== null) ? (<OverlayTrigger
                                     placement="bottom"
                                     delay={{ show: 250, hide: 400 }}

@@ -10,11 +10,11 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Row from 'react-bootstrap/Row';
 import Tooltip from 'react-bootstrap/Tooltip';
 
-// const renderTooltip = (props: any) => (
-//     <Tooltip id="button-tooltip" {...props}>
-//       Check it on GitHub
-//     </Tooltip>
-//   );
+const renderTooltip = (props: any) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Check it on GitHub
+    </Tooltip>
+  );
 
 export interface PortfoliocomponentProps {
    
@@ -33,19 +33,16 @@ const Portfoliocomponent: React.FC<PortfoliocomponentProps> =() => {
                             <Card.Body>{portfolio.description}</Card.Body>
                             <div className='d-flex justify-content-evenly align-items-center mb-2 mb-lg-0'>
                                 <a href={portfolio.URLsite} type='submit' target='_blank' rel='noreferrer'>
-                                    <Button className='my-2 greenButton'>Visit Website &rang;</Button>
+                                    <Button className='my-2 greenButton' type='button'>Visit Website &rang;</Button>
                                 </a>
-                                {(portfolio.URLGitHub !== null) ? (
-                                // <OverlayTrigger
-                                //     placement="bottom"
-                                //     delay={{ show: 250, hide: 400 }}
-                                //     overlay={renderTooltip}>
+                                {(portfolio.URLGitHub !== null) ? (<OverlayTrigger
+                                    placement="bottom"
+                                    delay={{ show: 250, hide: 400 }}
+                                    overlay={renderTooltip}>
                                         <a href={portfolio.URLGitHub} target='_blank' rel='noreferrer'>
                                             <FaGithub size='2em' color='#fff' />
                                         </a>
-                                    // {/* </OverlayTrigger> */}
-                                    )
-                                     : null}                                                              
+                                    </OverlayTrigger>) : null}                                                              
                             </div>                            
                         </Col>
                         <Col lg={6} className='imgCard' >

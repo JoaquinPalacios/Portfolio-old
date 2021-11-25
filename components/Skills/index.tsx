@@ -38,10 +38,10 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel35}`}><SiPhp size='1.5em' className='me-1' /> PHP</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel75}`}><SiJavascript size='1.5em' className='me-1' /> JavaScript</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel70}`}><SiTypescript size='1.5em' className='me-1' /> Typescript</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel75}`}><FaReact size='1.5em' className='me-1' /> React.Js</div>
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel75}`}><FaReact size='1.5em' className='me-1' /> React.js</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel70}`}><FaReact size='1.5em' className='me-1' /> React Native</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><SiRedux size='1.5em' className='me-1' /> Redux</div>
-                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel75}`}><SiNextdotjs size='1.5em' className='me-1' /> Next.Js</div></div>) : ''}                            
+                            <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel75}`}><SiNextdotjs size='1.5em' className='me-1' /> Next.js</div></div>) : ''}                            
                         </div>
                         )}
                         </InView>

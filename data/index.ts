@@ -7,17 +7,17 @@ const ArrayPortfolio: { id: string, title: string, description: string, URLsite:
         URLGitHub: 'https://github.com/JoaquinPalacios/TiziFlet',
         pageImage: '/images/TiziFlet.png',
         alt: 'TiziFlet Website',
-        tools: ['JavaScript', 'React.Js', 'Next.Js', 'Bootstrap', 'React Icons', 'EmailJS']
+        tools: ['JavaScript', 'React.js', 'Next.js', 'Bootstrap', 'React Icons', 'EmailJS']
     },
     {
         id: '2',
         title: 'Aimara Website',
-        description: 'Web Design and Development of Aimara Wines website. The Aimara Website is a personal React.Js project.',
+        description: 'Web Design and Development of Aimara Wines website. The Aimara Website is a personal React.js project.',
         URLsite: 'https://aimara.netlify.app/',
         URLGitHub: 'https://github.com/JoaquinPalacios/Aimara',
         pageImage: '/images/Aimara.png',
         alt: 'Aimara Website',
-        tools: ['JavaScript', 'React.Js', 'Bootstrap', 'Firebase']
+        tools: ['JavaScript', 'React.js', 'Bootstrap', 'Firebase']
     },
     {
         id: '3',
@@ -27,7 +27,7 @@ const ArrayPortfolio: { id: string, title: string, description: string, URLsite:
         URLGitHub: null,
         pageImage: '/images/Multistream.png',
         alt: 'Multistream Solutions Website',
-        tools: ['Wordpress - Divi', 'JavaScript', 'PHP', 'Bootstrap', 'Slick']
+        tools: ['WordPress - Divi', 'JavaScript', 'PHP', 'Bootstrap', 'Slick']
     }
 ] 
 export default ArrayPortfolio;

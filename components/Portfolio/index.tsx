@@ -33,7 +33,7 @@ const Portfoliocomponent: React.FC<PortfoliocomponentProps> =() => {
                             <Card.Body>{portfolio.description}</Card.Body>
                             <div className='d-flex justify-content-evenly align-items-center mb-2 mb-lg-0'>
                                 <a href={portfolio.URLsite} type='submit' target='_blank' rel='noreferrer'>
-                                    <Button className='my-2 greenButton' type='button'>Visit Website &rang;</Button>
+                                    <Button className='my-2 greenButton' type='submit'>Visit Website &rang;</Button>
                                 </a>
                                 {(portfolio.URLGitHub !== null) ? (<OverlayTrigger
                                     placement="bottom"

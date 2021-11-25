@@ -23,8 +23,8 @@ export default function Home() {
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <meta property="og:title" content='Joa Palacios Portfolio' />
         <meta property="og:description" content='Personal website porfolio of Joa Palacios' />
-        <meta property="og:image" content="https://i.ibb.co/5Fch3r5/web-Porfolio.png" />
-        <meta property="og:image:secure_url" content="https://i.ibb.co/5Fch3r5/web-Porfolio.png" /> 
+        <meta property="og:image" content="/images/profile.png" />
+        <meta property="og:image:secure_url" content="/images/profile.png" /> 
         <meta property="og:image:type" content="image/png" /> 
         <meta property="og:image:width" content="1200" /> 
         <meta property="og:image:height" content="627" />

@@ -153,7 +153,7 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                         <TimelineContent>
                             <Paper elevation={24} className={`bgCard white ${classes.paper}`}>
                                 <h5>Freelance Web developer</h5>
-                                <p>Working on a range of freelance web projects using HTML5, CSS3, SASS, Bootstrap, EmailJS, JavaScript, TypeScript, React.js, Redux or Next.js according to the needs of each client.</p>
+                                <p>Working on a range of freelance web projects using HTML5, CSS3, SASS, Bootstrap, EmailJS, JavaScript, Typescript, React.js, Redux or Next.js according to the needs of each client.</p>
                             </Paper>
                         </TimelineContent>
                     </TimelineItem>

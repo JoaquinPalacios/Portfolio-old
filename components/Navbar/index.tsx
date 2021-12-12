@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = () => {
     const [expanded, setExpanded] = useState<boolean | undefined>(false);
     return (
         <>
-            <NavbarBootstrap expanded={expanded} collapseOnSelect expand="md" className='border-dark border-bottom shadow-lg fixed-top bgCard pb-2 pt-3' variant="dark">
+            <NavbarBootstrap expanded={expanded} collapseOnSelect expand="md" className='border-dark border-bottom shadow-lg fixed-top bgCardNavbar' variant="dark">
                 <NavbarBootstrap.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(!expanded)} />
                 <NavbarBootstrap.Collapse id="responsive-navbar-nav">
                     <Scrollspy  items={ ['Home', 'Porfolio', 'History', 'Skills', 'Contact'] } currentClassName="is-current" className='container-fluid d-flex flex-column flex-md-row justify-content-md-around pt-3 pt-md-0'>

@@ -42,6 +42,11 @@ p {
   background-color: #0f1724 !important;
   padding: 0.2em;
 }
+.bgCardNavbar {
+  background-color: #0f1724 !important;
+  padding-top: 1em !important;
+  font-size: 110%;
+}
 .titleMargin {
   margin-top: 5em;
 }
@@ -54,7 +59,7 @@ p {
   padding: 4px;
 }
 .sectionPadding {
-  padding-top: 2em;
+  padding-top: 3em;
 }
 .green {
   color: #11ece5;

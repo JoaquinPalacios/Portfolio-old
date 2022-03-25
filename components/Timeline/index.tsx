@@ -262,7 +262,25 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                     </TimelineItem>
                     <TimelineItem className={classes.secondaryTail}>
                         <TimelineOppositeContent>
-                            <h5 className='pt-lg-2'>May - 2021 to present</h5>
+                            <h5 className='pt-lg-2'>May - 2021 / Dec - 2021</h5>
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot variant="outlined" className='timeConector'>
+                                <FaLaptopCode size='1.5em' />
+                            </TimelineDot>
+                            <TimelineConnector className='timeBg' />
+                        </TimelineSeparator>
+                        <TimelineContent>
+                            <Paper elevation={24} className={`bgCard white ${classes.paper}`}>
+                                <h5>Freelance Web Developer</h5>
+                                <h6>Revolution Creative Group</h6>
+                                <p>Development of websites using Wordpress and customize CSS and JavaScript</p>
+                            </Paper>
+                        </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem className={classes.secondaryTail}>
+                        <TimelineOppositeContent>
+                            <h5 className='pt-lg-2'>Jan - 2022 / Present</h5>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot variant="outlined" className='timeConector'>
@@ -271,9 +289,9 @@ const TimelineComponent: React.FC<TimelineComponentProps> = () => {
                         </TimelineSeparator>
                         <TimelineContent>
                             <Paper elevation={24} className={`bgCard white ${classes.paper}`}>
-                                <h5>Freelance Web Developer</h5>
-                                <h6>Revolution Creative Group</h6>
-                                <p>Development of websites using Wordpress and customize CSS and JavaScript</p>
+                                <h5>Front End Developer</h5>
+                                <h6>Guerrilla Agency</h6>
+                                <p>Development of websites using WordPress Gutenberg custom blocks, React.js and Next.js</p>
                             </Paper>
                         </TimelineContent>
                     </TimelineItem>

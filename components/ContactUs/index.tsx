@@ -35,7 +35,7 @@ const Contact: React.FC<ContactProps> = () => {
     }, 8000);
 
   return (
-            <Container id='Contact' className='mt-5 mb-5 mb-sm-0 sectionPadding'>
+            <Container id='Contact' className='mt-5 mb-3 mb-sm-0 sectionPadding'>
                 <h2 className='text-center mt-md-5 mt-3'>Get in touch!</h2>
                 <Row className='d-flex justify-content-center'>
                     <Col sm={12} lg={8} className='gy-3'> 

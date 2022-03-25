@@ -23,8 +23,9 @@ h2 {
 h4 {  
   color: #c6d3e7;
 }
-h5 {  
+h5 {
   color: #c6d3e7;
+  padding: 4px 4px 0;
 }
 h6 {  
   color: #c6d3e7;
@@ -32,6 +33,20 @@ h6 {
 p {  
   color: #c6d3e7;
 }
+
+h2 ~ h5 {
+  padding: 0;
+}
+h5 ~ h6 {
+  padding: 0 5px;
+}
+h5 ~ p {
+  padding: 0 5px;
+}
+h6 ~ p {
+  padding: 0 5px;
+}
+
 .grey {
   color: #c6d3e7;
 }

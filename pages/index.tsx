@@ -70,13 +70,13 @@ export default function Home() {
               <Image src='/images/profile.png' width='500px' height='625px' alt='Profile' />
           </Col>
         </Row>
-        <Row className='d-flex justify-content-center text-center text-lg-start'>
+        {/* <Row className='d-flex justify-content-center text-center text-lg-start'>
             <Col xs={{ span: 6, offset: 1 }} sm={{ span: 4, offset: 0 }} lg={{ span: 5, offset: 0 }}>
               <a href='/file/JoaPalacios-Resume.pdf' download>
                 <Button type='submit' className='greenButton'>Download resume</Button>
               </a>
             </Col>
-        </Row>
+        </Row> */}
         <Portfoliocomponent />
         <TimelineComponent />
         <SkillsComponent />

@@ -48,7 +48,7 @@ const Portfoliocomponent: React.FC<PortfoliocomponentProps> =() => {
                         </Col>
                         <Col lg={4} className=''>
                             <Card.Title className='mb-2 mt-2 mt-lg-0 text-center'>Technologies</Card.Title>                       
-                            {portfolio.tools.map((tool) => (<Badge className='text-start ms-4 bg-light text-dark p-1 m-2 d-flex justify-content-evenly shadow-lg' key={''}>{tool}</Badge>))}                 
+                            {portfolio.tools.map((tool, index) => (<Badge className='text-start ms-4 bg-light text-dark p-1 m-2 d-flex justify-content-evenly shadow-lg' key={index}>{tool}</Badge>))}                 
                         </Col>                 
                     </Row>
                 </Card>))}

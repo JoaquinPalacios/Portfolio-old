@@ -26,7 +26,7 @@ const Portfoliocomponent: React.FC<PortfoliocomponentProps> =() => {
             <h2 id='Porfolio' className='titleMargin sectionPadding mb-4 d-flex justify-content-center'>Portfolio</h2>                       
             <h4 className='text-center mb-5'>Here are a few projects I&#39;ve worked on recently. Want to see more? <a href="mailto:joa_palacios@hotmail.com" className='green'>Email me.</a></h4>
             <Container>
-            {ArrayPortfolio.map((portfolio) => (<Card className='bgCard py-3 border border-dark my-4' key={portfolio.id}>
+            {ArrayPortfolio.map((portfolio, index) => (<Card className='bgCard py-3 border border-dark my-4' key={index}>
                     <Row className='d-flex align-items-center'>
                         <Col lg={4} className='text-center'>
                             <Card.Title>{portfolio.title}</Card.Title>

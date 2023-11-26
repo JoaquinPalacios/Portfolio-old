@@ -62,7 +62,6 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                         <InView onChange={setInView} triggerOnce>
                         {({ ref, inView }) => (
                         <div className={styles.skillContainer}  ref={ref}>
-                            {console.log('inview', inView)}
                             {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel85}`}><SiStyledcomponents size='1.5em' className='me-1' /> Styled components</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel85}`}><FaBootstrap size='1.5em' className='me-1' /> Bootstrap</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel90}`}><SiTailwindcss  size='1.5em' className='me-1' /> Tailwind</div>
@@ -86,7 +85,6 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                         <InView onChange={setInView} triggerOnce>
                         {({ ref, inView }) => (
                         <div className={styles.skillContainer}  ref={ref}>
-                            {console.log('inview', inView)}
                             {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel80}`}><FaWordpress size='1.5em' className='me-1' /> WordPress</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel65}`}><FaWix size='1.5em' className='me-1' /> WIX</div></div>) : ''}                            
                         </div>
@@ -108,7 +106,6 @@ const SkillsComponent: React.FC<SkillsComponentProps> = () => {
                         <InView onChange={setInView} triggerOnce>
                         {({ ref, inView }) => (
                         <div className={styles.skillContainer}  ref={ref}>
-                            {console.log('inview', inView)}
                             {inView ? (<div><div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel75}`}><SiFirebase size='1.5em' className='me-1' /> Firebase</div>
                             <div className={`d-flex flex-row align-items-center ${styles.skill} ${styles.skillLevel50}`}><DiSqllite size='1.5em' className='me-1' /> SQLite</div></div>) : ''}                            
                         </div>

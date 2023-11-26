@@ -69,9 +69,14 @@ h6 ~ p {
   line-height: 1.2em;
 }
 .imgCard {
-  border: 2px solid #c6d3e7;
+  max-width: 600px;
+}
+.imgCard img {
+  /* border: 2px solid #c6d3e7 !important; */
   border-radius: 5px;
-  padding: 4px;
+  object-fit: cover;
+  padding: 4px !important;
+  width: 100% !important;
 }
 .sectionPadding {
   padding-top: 3em;

@@ -180,76 +180,73 @@
   display: flex;
   justify-content: center;
 }
+.profileImg > span {
+  object-fit: cover;
+  width: 100% !important;
+}
+.profileImg img {
+  object-fit: cover;
+}
+
+.iconsHtml, .iconsCss, .iconsBoots, .iconsMui, .iconsSass, .iconPhp, .iconsJs, .iconsTs, .iconsReact, .iconsRedux, .iconsNext, .iconExpo, .iconsWp, .iconsFb, .iconsAdobe {
+  transition: transform 0.3s ease-in-out, color 0.25s ease-in-out;
+}
 .iconsHtml:hover {
   color: #E34C26;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsCss:hover {
   color: #264de4;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsBoots:hover {
   color: #563d7c;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsMui:hover {
   color: #2196f3;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsSass:hover {
   color: #cc6699;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconPhp:hover {
   color: #8993be;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsJs:hover {
   color: #F0DB4F;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsTs:hover {
   color: #007acc;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsReact:hover {
   color: #61DBFB;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsRedux:hover {
   color: #764abc;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsNext:hover {
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconExpo:hover {
-  font-size: 1.4em;
-  transition: all 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsWp:hover {
   color: #00749C;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsFb:hover {
   color: #FFCB2B;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
 .iconsAdobe:hover {
   color: #ED2224;
-  font-size: 1.5em;
-  transition: 0.2s ease-in-out;
+  transform: scale(1.4);
 }
+
